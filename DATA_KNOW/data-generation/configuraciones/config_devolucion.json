@@ -1,0 +1,30 @@
+{
+    "seed": 42,
+    "volumen": {
+        "devoluciones": 50000
+    },
+    "fecha_snapshot": {
+        "inicio": "2023-01-01",
+        "fin": "2025-12-31"
+    },
+    "devoluciones": {
+        "pct_transacciones": 0.08
+    },
+    "motivos": [
+        "DEFECTUOSO",
+        "TALLA",
+        "NO_CUMPLE_EXPECT",
+        "ARREPENTIMIENTO"
+    ],
+    "canales": [
+        "Tienda fisica",
+        "Recogida a domicilio",
+        "Correo"
+    ],
+    "estados": [
+        "Pendiente",
+        "Aprobada",
+        "Rechazada",
+        "Reembolsada"
+    ]
+}

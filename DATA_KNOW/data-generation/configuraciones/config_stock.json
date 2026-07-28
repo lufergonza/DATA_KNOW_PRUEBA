@@ -1,0 +1,20 @@
+{
+    "seed": 4576,
+    "volumen": {
+        "snapshots": 750000
+    },
+    "fecha_snapshot": {
+        "inicio": "2023-01-01",
+        "fin": "2025-12-31"
+    },
+    "stock_minimo_config": {
+        "minimo": 10,
+        "maximo": 50
+    },
+    "multiplicador_maximo": {
+        "minimo": 3,
+        "maximo": 8
+    },
+    "pct_transito_max": 0.3,
+    "pct_sobrestock_max": 1.2
+}

@@ -1,0 +1,21 @@
+{
+    "seed": 4321,
+    "volumen": {
+        "proveedores": 800
+    },
+    "paises": [
+        "colombia",
+        "chile",
+        "china",
+        "usa",
+        "suiza"
+    ],
+    "tiempo_repo": {
+        "minimo": 10,
+        "maximo": 25
+    },
+    "calificacion_calidad": {
+        "minimo": 1,
+        "maximo": 5
+    }
+}
