@@ -1,0 +1,68 @@
+{
+    "seed": 9315,
+    "volumen": {
+        "transacciones": 1000000
+    },
+    "fechas_transaccion": {
+        "inicio": "2023-01-01",
+        "fin": "2025-12-31"
+    },
+    "cantidad_vendida": {
+        "minimo": 1,
+        "maximo": 25
+    },
+    "precio_unitario": {
+        "minimo": 5000,
+        "maximo": 500000
+    },
+    "descuento": {
+        "valores": [
+            0,
+            5,
+            10,
+            15,
+            20,
+            30,
+            40,
+            50
+        ]
+    },
+    "tipos_pago": [
+        "Efectivo",
+        "Tarjeta Debito",
+        "Tarjeta Credito",
+        "PayPal"
+    ],
+    "canales_venta": [
+        "tienda fisica",
+        "pagina web",
+        "app"
+    ],
+    "horarios": {
+        "madrugada": {
+            "inicio": 0,
+            "fin": 7,
+            "probabilidad": 5
+        },
+        "mañana": {
+            "inicio": 8,
+            "fin": 11,
+            "probabilidad": 20
+        },
+        "mediodia": {
+            "inicio": 12,
+            "fin": 15,
+            "probabilidad": 35
+        },
+        "tarde": {
+            "inicio": 16,
+            "fin": 19,
+            "probabilidad": 30
+        },
+        "noche": {
+            "inicio": 20,
+            "fin": 23,
+            "probabilidad": 10
+        }
+    }
+}

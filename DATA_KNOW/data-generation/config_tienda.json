@@ -1,0 +1,44 @@
+{
+    "seed": 2765,
+    "volumen": {
+        "tiendas": 150
+    },
+    "fechas": {
+        "inicio": "2020-01-01",
+        "fin": "2025-12-31"
+    },
+    "tiendas": {
+        "tipos": [
+            "hipermercados",
+            "supermercado",
+            "tiendas de conveniencia"
+        ]
+    },
+    "paises": {
+        "colombia": [
+            "Bogotá",
+            "Medellín",
+            "Cali",
+            "Barranquilla"
+        ],
+        "chile": [
+            "Santiago",
+            "Valparaíso",
+            "Concepción"
+        ],
+        "peru": [
+            "Lima",
+            "Arequipa",
+            "Cusco"
+        ],
+        "ecuador": [
+            "Quito",
+            "Guayaquil",
+            "Cuenca"
+        ]
+    },
+    "metros_cuadrados": {
+        "minimo": 80,
+        "maximo": 5000
+    }
+}

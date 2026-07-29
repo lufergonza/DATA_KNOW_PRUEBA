@@ -1,0 +1,80 @@
+{
+    "seed": 4827,
+    "volumen": {
+        "miembros": 50000
+    },
+    "fechas_registro": {
+        "inicio": "2020-01-01",
+        "fin": "2023-12-31"
+    },
+    "fechas_ultima_compra": {
+        "inicio": "2024-01-01",
+        "fin": "2025-12-31"
+    },
+    "ciudades": [
+        "Bogota",
+        "Medellin",
+        "Cali",
+        "Barranquilla",
+        "Cartagena",
+        "Bucaramanga",
+        "Pereira",
+        "Manizales",
+        "Cucuta",
+        "Santa Marta",
+        "Buenos Aires",
+        "Cordoba",
+        "Rosario",
+        "Mendoza",
+        "La Plata",
+        "Mar del Plata",
+        "Salta",
+        "Tucuman",
+        "Santiago de Chile",
+        "Valparaiso",
+        "Concepcion",
+        "Antofagasta",
+        "La Serena",
+        "Temuco",
+        "Vina del Mar",
+        "Rancagua",
+        "Puerto Montt",
+        "Quito",
+        "Guayaquil",
+        "Cuenca",
+        "Ambato",
+        "Manta",
+        "Machala",
+        "Loja",
+        "Riobamba",
+        "Ciudad de Mexico",
+        "Guadalajara",
+        "Monterrey",
+        "Puebla",
+        "Tijuana",
+        "Leon",
+        "Queretaro",
+        "Merida",
+        "Cancun"
+    ],
+    "generos": [
+        "Femenino",
+        "Masculino",
+        "Otro"
+    ],
+    "rangos_edad": [
+        "18-20",
+        "21-25",
+        "26-30",
+        "31-35",
+        "36-40",
+        "41-50",
+        "51-60",
+        "61+"
+    ],
+    "canales_preferidos": [
+        "tienda fisica",
+        "pagina web",
+        "app"
+    ]
+}
