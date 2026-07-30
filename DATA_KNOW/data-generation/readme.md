@@ -22,18 +22,18 @@ El script de generación está diseñado para mantener la integridad referencial
 A continuación se documenta visualmente la ejecución de los scripts, la configuración de los parámetros de `Faker` y la validación de los DataFrames resultantes:
 
 ### Configuración y Ejecución del Script
-![Generación Faker 1](docs_data/imagenes/Captura%20de%20pantalla%202026-07-27%20195605.png)
-![Generación Faker 2](docs_data/imagenes/Captura%20de%20pantalla%202026-07-28%20224538.png)
+![Generación Faker 1](docs_data/Captura%20de%20pantalla%202026-07-27%20195605.png)
+![Generación Faker 2](docs_data/Captura%20de%20pantalla%202026-07-28%20224538.png)
 
 ### Estructuración de DataFrames
-![Estructura de Datos 1](docs_data/imagenes/Captura%20de%20pantalla%202026-07-28%20225430.png)
-![Estructura de Datos 2](docs_data/imagenes/Captura%20de%20pantalla%202026-07-28%20225758.png)
-![Estructura de Datos 3](docs_data/imagenes/Captura%20de%20pantalla%202026-07-28%20225831.png)
+![Estructura de Datos 1](docs_data/Captura%20de%20pantalla%202026-07-28%20225430.png)
+![Estructura de Datos 2](docs_data/Captura%20de%20pantalla%202026-07-28%20225758.png)
+![Estructura de Datos 3](docs_data/Captura%20de%20pantalla%202026-07-28%20225831.png)
 
 ### Validación y Exportación de Resultados
-![Validación Resultados 1](docs_data/imagenes/Captura%20de%20pantalla%202026-07-28%20230045.png)
-![Validación Resultados 2](docs_data/imagenes/Captura%20de%20pantalla%202026-07-28%20230206.png)
-![Validación Resultados 3](docs_data/imagenes/Captura%20de%20pantalla%202026-07-28%20230542.png)
+![Validación Resultados 1](docs_data/Captura%20de%20pantalla%202026-07-28%20230045.png)
+![Validación Resultados 2](docs_data/Captura%20de%20pantalla%202026-07-28%20230206.png)
+![Validación Resultados 3](docs_data/Captura%20de%20pantalla%202026-07-28%20230542.png)
 
 ## 🚀 Cómo ejecutar la simulación localmente
 
