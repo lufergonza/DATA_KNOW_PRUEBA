@@ -3,7 +3,7 @@
 # ESCOJI LA NUBE MICROSOFT FABRIC POR QUE YA LA HABIA USADO EN EL PROYECTO DE DATA_LAB
 # RetailNova: End-to-End Data Pipeline & Machine Learning
 
-![Backend Azure]()
+![Backend Azure](Diagrama1.jpeg)
 
 Este repositorio contiene la implementación de una arquitectura de datos analítica completa para **RetailNova**, construida bajo el enfoque de Arquitectura Medallón (Bronze, Silver, Gold). El proyecto abarca desde la ingesta y transformación de datos hasta la orquestación automatizada y la implementación de un modelo de clasificación de Machine Learning.
 
