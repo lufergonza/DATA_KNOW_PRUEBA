@@ -26,18 +26,7 @@ Se aprovisionan tres **Lakehouses** independientes para segmentar físicamente l
 
 A continuación, se presentan las capturas del aprovisionamiento exitoso de la infraestructura:
 
-### Backend y Almacenamiento
-![Backend Azure](imagenes/Captura%20de%20pantalla%202026-07-27%20014653.png)
-
-### Configuración de Lakehouses (Medallón)
-![Lakehouse Bronze](imagenes/Captura%20de%20pantalla%202026-07-27%20110644.png)
-![Lakehouse Silver](imagenes/Captura%20de%20pantalla%202026-07-27%20110743.png)
-![Lakehouse Gold](imagenes/Captura%20de%20pantalla%202026-07-27%20110758.png)
-
-### Procesamiento y Orquestación en Fabric
-![Conexiones de Notebooks](imagenes/Captura%20de%20pantalla%202026-07-27%20110803.png)
-![Data Pipeline](imagenes/Captura%20de%20pantalla%202026-07-27%20110850.png)
-![Ejecución de Infraestructura](imagenes/Captura%20de%20pantalla%202026-07-29%20010713.png)
+https://github.com/lufergonza/DATA_KNOW_PRUEBA/blob/main/DATA_KNOW/Infra/docs_terraform/Captura%20de%20pantalla%202026-07-27%20014653.png
 
 ## ⚙️ Requisitos Previos
 
