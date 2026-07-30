@@ -35,17 +35,17 @@ El Lakehouse Gold no solo almacena los datos en formato Delta, sino que Microsof
 A continuación, se documenta la ejecución exitosa de los Notebooks, la persistencia en los Lakehouses y la consulta de las tablas procesadas:
 
 
-![Evidencia Notebook 1](evidencias/Captura%20de%20pantalla%202026-07-29%20123951.png)
-![Evidencia Notebook 2](evidencias/Captura%20de%20pantalla%202026-07-29%20125254.png)
-![Evidencia Notebook 3](evidencias/Captura%20de%20pantalla%202026-07-29%20185439.png)
+![Evidencia Notebook 1](Captura%20de%20pantalla%202026-07-29%20123951.png)
+![Evidencia Notebook 2](Captura%20de%20pantalla%202026-07-29%20125254.png)
+![Evidencia Notebook 3](Captura%20de%20pantalla%202026-07-29%20185439.png)
 
 
-![Evidencia Lakehouse 1](evidencias/Captura%20de%20pantalla%202026-07-29%20202235.png)
-![Evidencia Lakehouse 2](evidencias/Captura%20de%20pantalla%202026-07-29%20202302.png)
+![Evidencia Lakehouse 1](Captura%20de%20pantalla%202026-07-29%20202235.png)
+![Evidencia Lakehouse 2](Captura%20de%20pantalla%202026-07-29%20202302.png)
 
 
-![Evidencia SQL Endpoint 1](evidencias/Captura%20de%20pantalla%202026-07-29%20202351.png)
-![Evidencia SQL Endpoint 2](evidencias/Captura%20de%20pantalla%202026-07-29%20210351.png)
+![Evidencia SQL Endpoint 1](Captura%20de%20pantalla%202026-07-29%20202351.png)
+![Evidencia SQL Endpoint 2](Captura%20de%20pantalla%202026-07-29%20210351.png)
 
 ## 🚀 Requisitos para Ejecución
 1.  Permisos de nivel **Contributor** en el Workspace de Microsoft Fabric.
