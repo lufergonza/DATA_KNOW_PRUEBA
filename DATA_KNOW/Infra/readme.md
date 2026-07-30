@@ -26,7 +26,7 @@ Se aprovisionan tres **Lakehouses** independientes para segmentar físicamente l
 
 A continuación, se presentan las capturas del aprovisionamiento exitoso de la infraestructura:
 
-![Backend Azure](Infra/docs_terraform/Captura%20de%20pantalla%202026-07-27%20014653.png)
+![Backend Azure](docs_terraform/Captura%20de%20pantalla%202026-07-27%20014653.png)
 
 ## ⚙️ Requisitos Previos
 
