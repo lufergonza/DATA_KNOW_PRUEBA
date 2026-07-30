@@ -10,32 +10,45 @@ La ejecución de esta infraestructura despliega automáticamente los siguientes 
 
 ### 1. Backend de Estado (Microsoft Azure)
 *   **Storage Account:** Creación de una cuenta de almacenamiento dedicada en Azure.
-*   **Contenedor de Estado:** Configuración de un contenedor remoto (`backend`) para almacenar de forma segura el archivo de estado de la infraestructura (ej. `terraform.tfstate`), permitiendo el trabajo colaborativo, la trazabilidad y el bloqueo de estado para evitar despliegues concurrentes.
+*   **Contenedor de Estado:** Configuración de un contenedor remoto (`backend`) para almacenar de forma segura el archivo de estado de la infraestructura, permitiendo el trabajo colaborativo y el bloqueo de estado para evitar despliegues concurrentes.
 
 ### 2. Capa de Almacenamiento (Microsoft Fabric - OneLake)
 Se aprovisionan tres **Lakehouses** independientes para segmentar físicamente los datos según su nivel de refinamiento en la Arquitectura Medallón:
 *   `lakehouse_bronze`: Almacenamiento de datos crudos (Raw/Ingesta).
 *   `lakehouse_silver`: Almacenamiento de datos limpios, enmascarados y estandarizados.
-*   `lakehouse_gold`: Almacenamiento de datos agregados, KPIs de negocio y características para el modelo de clasificación.
+*   `lakehouse_gold`: Almacenamiento de datos agregados y características de Machine Learning.
 
 ### 3. Capa de Procesamiento y Orquestación (Microsoft Fabric)
-*   **Notebooks (PySpark):** Despliegue de tres Notebooks de ingeniería de datos, cada uno vinculado a su respectivo Lakehouse (Bronze, Silver, Gold) para ejecutar las transformaciones correspondientes.
-*   **Data Pipeline:** Creación de un pipeline automatizado que establece la dependencia secuencial de los Notebooks, orquestando el flujo completo (Ingesta $\rightarrow$ Transformación $\rightarrow$ Agregación/ML).
+*   **Notebooks (PySpark):** Despliegue de tres Notebooks de ingeniería de datos, cada uno vinculado a su respectivo Lakehouse.
+*   **Data Pipeline:** Creación de un pipeline automatizado que establece la dependencia secuencial de los Notebooks.
+
+## 📸 Evidencias del Despliegue
+
+A continuación, se presentan las capturas del aprovisionamiento exitoso de la infraestructura:
+
+### Backend y Almacenamiento
+![Backend Azure](imagenes/Captura%20de%20pantalla%202026-07-27%20014653.png)
+
+### Configuración de Lakehouses (Medallón)
+![Lakehouse Bronze](imagenes/Captura%20de%20pantalla%202026-07-27%20110644.png)
+![Lakehouse Silver](imagenes/Captura%20de%20pantalla%202026-07-27%20110743.png)
+![Lakehouse Gold](imagenes/Captura%20de%20pantalla%202026-07-27%20110758.png)
+
+### Procesamiento y Orquestación en Fabric
+![Conexiones de Notebooks](imagenes/Captura%20de%20pantalla%202026-07-27%20110803.png)
+![Data Pipeline](imagenes/Captura%20de%20pantalla%202026-07-27%20110850.png)
+![Ejecución de Infraestructura](imagenes/Captura%20de%20pantalla%202026-07-29%20010713.png)
 
 ## ⚙️ Requisitos Previos
 
 Para ejecutar y modificar esta infraestructura, necesitas:
-
-1.  **Credenciales de Azure:** Una suscripción de Microsoft Azure activa con permisos para crear cuentas de almacenamiento (Storage Accounts).
-2.  **Entorno de Fabric:** Un Workspace de Microsoft Fabric con capacidad asignada (SKU válido).
-3.  **Herramienta de IaC:** Terraform (o la herramienta CLI correspondiente Bicep/ARM) instalada en tu máquina local.
+1.  **Credenciales de Azure:** Suscripción activa con permisos para Storage Accounts.
+2.  **Entorno de Fabric:** Un Workspace con capacidad asignada (SKU válido).
+3.  **Herramienta de IaC:** Terraform instalada en tu máquina local.
 4.  **Autenticación:** Sesión iniciada a través de Azure CLI (`az login`).
 
 ## 🚀 Despliegue de la Infraestructura
 
-Sigue estos pasos para inicializar y desplegar los recursos en tu entorno:
-
 1. **Inicializar el backend:** 
-   Esto preparará el directorio y conectará la configuración con la Storage Account en Azure.
    ```bash
    terraform init
