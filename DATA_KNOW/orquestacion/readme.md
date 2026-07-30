@@ -33,7 +33,7 @@ El Lakehouse Gold no solo almacena los datos en formato Delta, sino que Microsof
 ## 📸 Evidencias de Ejecución (Notebooks y SQL Endpoint)
 
 A continuación, se documenta la ejecución exitosa de los Notebooks, la persistencia en los Lakehouses y la consulta de las tablas procesadas:
-
+![Evidencia SQL Endpoint 2](Captura%20de%20pantalla%202026-07-29%20210351.png)
 
 ![Evidencia Notebook 1](Captura%20de%20pantalla%202026-07-29%20123951.png)
 ![Evidencia Notebook 2](Captura%20de%20pantalla%202026-07-29%20125254.png)
